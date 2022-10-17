@@ -20,6 +20,7 @@ def ingredients_beverages_sizes_factory():
         ingredients_factory.append(ingredient_manager.create({"name": ingredient["name"], "price": ingredient["price"]}))
         
     sizes = [
+        {"name": "Personal size", "price": 2.0},
         {"name": "Small", "price": 5.0},
         {"name": "Medium", "price": 8.0},
         {"name": "Big", "price": 15.0},
